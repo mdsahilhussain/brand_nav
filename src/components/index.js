@@ -1,4 +1,5 @@
 export { default as Button } from "./Button/Button";
+export { default as Navbar } from "./Navbar/Navbar";
 export { default as Header } from "./Header/Header";
 export { default as About } from "./About/About";
 export { default as Features } from "./Features/Features";
@@ -6,4 +7,4 @@ export { default as Pricing } from "./Pricing/Pricing";
 export { default as Network } from "./Network/Network";
 export { default as Testimonials } from "./Testimonials/Testimonials";
 export { default as Help } from "./Help/Help";
-export { default as Navbar } from "./Navbar/Navbar";
+export { default as Footer } from "./Footer/Footer";

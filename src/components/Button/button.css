@@ -2,6 +2,7 @@
 .btn {
   box-sizing: border-box;
   outline: none;
+  cursor: pointer;
   width: 9rem;
   height: 2.5rem;
   border-radius: 1.8rem;

@@ -25,7 +25,7 @@ const aboutInfo = [
 
 function About() {
   return (
-    <section className="about">
+    <section className="about" id="about">
       {aboutInfo.map((item, index) => (
         <div key={index} className="about___card">
           <div className="about___card--image">

@@ -22,7 +22,7 @@ const featuresInfo = [
 
 function Features() {
   return (
-    <section className="features">
+    <section className="features" id="features">
       <img src={featuresImg} alt="featuresImg" />
       <div className="features___detail">
         <h2>We Provide Many Features You Can Use</h2>

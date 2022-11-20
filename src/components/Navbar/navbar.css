@@ -30,6 +30,10 @@
 .nav___links li:last-child {
   margin-right: 0rem;
 }
+.nav___links p:hover{
+  color: var(--titleColor);
+}
+
 
 .nav___button Button {
   margin-right: 0.8rem;

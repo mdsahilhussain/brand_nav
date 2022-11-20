@@ -1,0 +1,62 @@
+@import "../../App.css";
+
+section.footer {
+  padding: 1rem;
+  width: 100%;
+  background-color: var(--footerColor);
+}
+
+.footerContainer {
+  margin-bottom: 4rem;
+  margin-top: 1rem;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+.footer___info img {
+  width: 8rem;
+  height: auto;
+}
+
+.footer___info p {
+  margin: 1rem 0;
+  line-height: 1.5;
+}
+.footer___info--icon {
+  display: flex;
+  align-items: center;
+}
+
+.footer___info--icon li {
+  margin-right: 0.5rem;
+}
+
+.footer___info--icon li:last-child {
+  margin-right: 0rem;
+}
+
+.footer___info--icon img {
+  width: 2rem;
+  height: auto;
+}
+
+.footer___importantLink {
+  width: 60%;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+.footer___importantLink ul {
+  margin-right: 2rem;
+}
+
+.footer___importantLink ul h5,
+.footer___importantLink ul p {
+  margin-bottom: 1rem;
+}
+
+.footer___importantLink ul p:hover {
+    color: var(--titleColor);
+  }

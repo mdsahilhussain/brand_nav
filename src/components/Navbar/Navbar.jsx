@@ -14,19 +14,21 @@ const navInfo = [
 
 function Navbar() {
   return (
-    <nav className="nav">
+    <nav className="nav container">
       <ui className="nav___image">
         <img src={Logo} alt="logoIMG" />
       </ui>
       <ui className="nav___links">
         {navInfo.map((item, key) => (
           <li>
-            <a href={item.url}>{item.navName}</a>
+            <a href={item.url}>
+              <p>{item.navName}</p>
+            </a>
           </li>
         ))}
       </ui>
       <ui className="nav___button">
-        <Button name="Sign In" type="btn___normal"/>
+        <Button name="Sign In" type="btn___normal" />
         <Button name="Sing up" type="btn___border" />
       </ui>
     </nav>

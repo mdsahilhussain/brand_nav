@@ -10,7 +10,7 @@ import Button from "../Button/Button";
 function Header() {
   return (
     <header>
-      <div className="header___title">
+      <div className="header___title" >
         <h1>
           Want anything to be easy with <span>LaslesVPN.</span>
         </h1>

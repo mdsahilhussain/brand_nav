@@ -6,7 +6,8 @@ import peopleOne from "../../assets/Ellipse 175.png";
 import peopleTwo from "../../assets/Ellipse 175 (1).png";
 import peopleThree from "../../assets/Ellipse 175 (2).png";
 import ratingStar from "../../assets/rating-star.svg";
-
+import rightArrow from "../../assets/right-arrow.svg";
+import leftArrow from "../../assets/left-arrow.svg";
 const peopleInfo = [
   {
     img: peopleOne,
@@ -35,7 +36,7 @@ const peopleInfo = [
 ];
 function Testimonials() {
   return (
-    <section className="testimonials">
+    <section className="testimonials" id="testimonials">
       <h2>
         Trusted by Thousands of <br /> Happy Customer
       </h2>
@@ -63,6 +64,22 @@ function Testimonials() {
             </div>
           </div>
         ))}
+      </div>
+      <div className="testimonials___slider--controler">
+        <ui  className="testimonials___slider--controler___dots">
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+        </ui>
+        <ui className="testimonials___slider--controler___btn">
+          <li>
+            <img src={leftArrow} alt="" className="arrow" />
+          </li>
+          <li>
+            <img src={rightArrow} alt="" className="arrow" />
+          </li>
+        </ui>
       </div>
     </section>
   );

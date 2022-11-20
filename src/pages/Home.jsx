@@ -8,11 +8,13 @@ import {
   Testimonials,
   Help,
   Network,
+  Footer,
 } from "../components";
 
 function Home() {
   return (
     <>
+      <div className="container">
       <Navbar />
       <Header />
       <About />
@@ -20,7 +22,9 @@ function Home() {
       <Pricing />
       <Network />
       <Testimonials />
+      </div>
       <Help />
+      <Footer />
     </>
   );
 }

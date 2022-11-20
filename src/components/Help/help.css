@@ -1,0 +1,35 @@
+@import "../../App.css";
+
+.help--white {
+  height: 3rem;
+  width: 100%;
+  background-color: var(--bgColor);
+}
+.help--gray {
+  margin-top: 8rem;
+  width: 100%;
+  background-color: var(--footerColor);
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 15vh;
+}
+.help___card {
+  position: absolute;
+  top: -8rem;
+  width: 72%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 3.5rem 3rem;
+  border-radius: 20px;
+  background-color: var(--bgColor);
+  box-shadow: 1px 13px 24px 5px rgba(13, 16, 37, 0.20);
+  -webkit-box-shadow: 1px 13px 24px 5px rgba(13, 16, 37, 0.20);
+  -moz-box-shadow: 1px 13px 24px 5px rgba(13, 16, 37, 0.20);
+}
+
+.help___card--info p{
+margin-top: 1rem;
+}

@@ -13,7 +13,7 @@ const companyImage = [netflex, reditt, amazon, discode, sportfy];
 
 function Network() {
   return (
-    <section className="network">
+    <section className="network" id="network">
       <h2>
         Huge Global Network <br /> of Fast VPN
       </h2>

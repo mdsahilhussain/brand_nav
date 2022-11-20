@@ -51,7 +51,7 @@ const pricingInfo = [
 
 function Pricing() {
   return (
-    <section className="pricing">
+    <section className="pricing" id="pricing">
       <h2>Choose Your Plan</h2>
       <p>
         Let's choose the package that is best for you and explore it happily and
