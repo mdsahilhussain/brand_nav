@@ -1,0 +1,61 @@
+@import "../../App.css";
+
+.nav {
+  padding: 2rem 0rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.nav___image {
+  height: 45px;
+}
+
+.nav___image img {
+  height: 100%;
+  width: auto;
+}
+
+.nav___links {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.nav___links li {
+  list-style: none;
+  margin-right: 18px;
+}
+
+.nav___links li:last-child {
+  margin-right: 0px;
+}
+
+.nav___button Button {
+  margin-right: 10px;
+}
+
+.nav___button Button:last-child {
+  margin-right: 0px;
+}
+
+/* Tablets, iPads (landscape) ----------- */
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
+}
+
+/* Tablets, iPads (portrait) ----------- */
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) {
+}
+
+/* Desktops and laptops ----------- */
+@media only screen and (min-width: 1224px) {
+}
+
+/* Large screens ----------- */
+@media only screen and (min-width: 1824px) {
+}
+
+/* iPhone 4 ----------- */
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5),
+  only screen and (min-device-pixel-ratio: 1.5) {
+}

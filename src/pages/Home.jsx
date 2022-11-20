@@ -1,9 +1,26 @@
-import React from 'react'
+import React from "react";
+import {
+  Navbar,
+  Header,
+  About,
+  Features,
+  Pricing,
+  Testimonials,
+  Help,
+} from "../components";
 
 function Home() {
   return (
-    <div>Home</div>
-  )
+    <>
+      <Navbar />
+      <Header />
+      <About />
+      <Features />
+      <Pricing />
+      <Testimonials />
+      <Help />
+    </>
+  );
 }
 
-export default Home
+export default Home;

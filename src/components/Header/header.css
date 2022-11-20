@@ -1,0 +1,28 @@
+@import "../../App.css";
+
+header {
+  margin-top: 24px;
+  padding: 3rem 0rem;
+  display: flex;
+  height: 60vh;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header___title {
+  width: 25vw;
+}
+
+.header___title p {
+  margin-top: 18px;
+  margin-bottom: 25px;
+}
+header > .header___imgSection {
+  height: 100%;
+  width: auto;
+}
+
+.header___imgSection img {
+  height: 100%;
+  width: auto;
+}
