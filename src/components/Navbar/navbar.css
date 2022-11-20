@@ -8,7 +8,7 @@
 }
 
 .nav___image {
-  height: 45px;
+  height: 3rem;
 }
 
 .nav___image img {
@@ -24,19 +24,19 @@
 
 .nav___links li {
   list-style: none;
-  margin-right: 18px;
+  margin-right: 1.2rem;
 }
 
 .nav___links li:last-child {
-  margin-right: 0px;
+  margin-right: 0rem;
 }
 
 .nav___button Button {
-  margin-right: 10px;
+  margin-right: 0.8rem;
 }
 
 .nav___button Button:last-child {
-  margin-right: 0px;
+  margin-right: 0rem;
 }
 
 /* Tablets, iPads (landscape) ----------- */

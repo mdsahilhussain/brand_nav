@@ -1,7 +1,7 @@
 @import "../../App.css";
 
 header {
-  margin-top: 24px;
+  margin-top: 2rem;
   padding: 3rem 0rem;
   display: flex;
   height: 60vh;
@@ -14,8 +14,8 @@ header {
 }
 
 .header___title p {
-  margin-top: 18px;
-  margin-bottom: 25px;
+  margin-top: 1.2rem;
+  margin-bottom: 1.8rem;
 }
 header > .header___imgSection {
   height: 100%;
