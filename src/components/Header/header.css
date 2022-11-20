@@ -10,13 +10,14 @@ header {
 }
 
 .header___title {
-  width: 25vw;
+  margin-right: 2rem;
 }
 
 .header___title p {
   margin-top: 1.2rem;
   margin-bottom: 1.8rem;
 }
+
 header > .header___imgSection {
   height: 100%;
   width: auto;

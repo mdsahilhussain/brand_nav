@@ -1,7 +1,8 @@
 @import "../../App.css";
 
-.about {
+section.about {
   display: flex;
+  margin-top: 4rem;
   justify-content: space-between;
   align-items: center;
   padding: 2rem 0;

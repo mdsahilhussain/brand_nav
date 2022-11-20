@@ -32,7 +32,7 @@ function About() {
             <img src={item.iconImage} alt="" />
           </div>
           <div className="about___card--detail">
-            <h5>{item.titel}</h5>
+            <h4>{item.titel}</h4>
             <p>{item.subTitel}</p>
           </div>
         </div>

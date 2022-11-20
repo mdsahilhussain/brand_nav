@@ -1,0 +1,36 @@
+@import "../../App.css";
+
+section.network {
+  margin-top: 4rem;
+  height: fit-content;
+  width: 100%;
+  text-align: center;
+}
+
+.network h2 {
+  margin-bottom: 1rem;
+}
+
+.network___global--image {
+  margin-top: 4rem;
+  height: 60vh;
+  width: auto;
+}
+
+.network___global--image img {
+  height: 100%;
+  width: auto;
+}
+
+.network___companey--image {
+  margin-top: 3rem;
+  height: 8vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.network___companey--image img {
+  height: 100%;
+  width: auto;
+}

@@ -7,6 +7,7 @@ import {
   Pricing,
   Testimonials,
   Help,
+  Network,
 } from "../components";
 
 function Home() {
@@ -17,6 +18,7 @@ function Home() {
       <About />
       <Features />
       <Pricing />
+      <Network />
       <Testimonials />
       <Help />
     </>
