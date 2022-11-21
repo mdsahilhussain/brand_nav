@@ -66,3 +66,93 @@ section.pricing {
 .pricingSection___card h4 {
   margin-bottom: 1rem;
 }
+
+@media screen and (max-width: 1280px) {
+  section.pricing {
+    margin-top: 2rem;
+  }
+
+  .pricing h2 {
+    margin-bottom: 1rem;
+  }
+  .pricingSection {
+    margin-top: 2rem;
+  }
+  .pricingSection___card {
+    padding: 1.5rem 1.2rem 1.5rem 1.2rem;
+  }
+
+  .pricingSection___card--image {
+    margin-bottom: 1rem;
+  }
+
+  .pricingSection___detail {
+    height: 15rem;
+  }
+
+  .pricingSection___detail--points {
+    margin-bottom: 1rem;
+  }
+
+  .pricingSection___detail--points img {
+    width: 1rem;
+  }
+}
+@media screen and (max-width: 1050px) {
+  .pricingSection___card span {
+    font-size: 0.8rem;
+  }
+
+  .pricingSection___card--image {
+    height: 5rem;
+  }
+
+  .pricingSection___detail {
+    margin-top: 1.5rem;
+    height: 14rem;
+  }
+}
+
+@media screen and (max-width: 700px) {
+}
+
+@media screen and (max-width: 550px) {
+  .pricingSection {
+    justify-content: flex-start;
+    overflow-x: auto;
+    overflow-y: hidden;
+    padding-bottom: 1rem;
+  }
+
+  .pricingSection___card {
+    margin-right: 1rem;
+  }
+
+  .pricingSection___card:last-child {
+    margin-right: 0rem;
+  }
+  .pricingSection___card span {
+    font-size: 0.8rem;
+  }
+
+  .pricingSection___card--image {
+    height: 5rem;
+    margin-bottom: 1rem;
+  }
+
+  .pricingSection___detail {
+    height: 9rem;
+  }
+
+  .pricingSection___detail--points {
+    margin-bottom: 0.5rem;
+  }
+
+  .pricingSection___detail--points img {
+    width: 0.8rem;
+  }
+
+  .pricingSection___card h4 {
+    margin-bottom: 0.8rem;
+  }
+}

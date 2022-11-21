@@ -25,11 +25,56 @@
   padding: 3.5rem 3rem;
   border-radius: 20px;
   background-color: var(--bgColor);
-  box-shadow: 1px 13px 24px 5px rgba(13, 16, 37, 0.20);
-  -webkit-box-shadow: 1px 13px 24px 5px rgba(13, 16, 37, 0.20);
-  -moz-box-shadow: 1px 13px 24px 5px rgba(13, 16, 37, 0.20);
+  box-shadow: 1px 13px 24px 5px rgba(13, 16, 37, 0.2);
+  -webkit-box-shadow: 1px 13px 24px 5px rgba(13, 16, 37, 0.2);
+  -moz-box-shadow: 1px 13px 24px 5px rgba(13, 16, 37, 0.2);
 }
 
-.help___card--info p{
-margin-top: 1rem;
+.help___card--info p {
+  margin-top: 1rem;
+}
+
+@media screen and (max-width: 1050px) {
+  .help--white {
+    height: 3rem;
+    width: 100%;
+  }
+  .help--gray {
+    margin-top: 8rem;
+    width: 100%;
+    height: 15vh;
+  }
+  .help___card {
+    width: 72%;
+  }
+
+  .help___card--info p {
+    margin-top: 1rem;
+  }
+}
+
+@media screen and (max-width: 700px) {
+}
+
+@media screen and (max-width: 550px) {
+  .help--white {
+    height: 3rem;
+    width: 100%;
+  }
+  .help--gray {
+    margin-top: 5rem;
+    width: 100%;
+    height: 15vh;
+  }
+  .help___card {
+  top: -5rem;
+    padding: 2rem;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 70%;
+  }
+  .help___card--info p {
+    margin-top: 0.5rem;
+    margin-bottom: 1rem;
+  }
 }

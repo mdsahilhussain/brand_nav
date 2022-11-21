@@ -4,7 +4,8 @@ header {
   margin-top: 2rem;
   padding: 3rem 0rem;
   display: flex;
-  height: 60vh;
+  width: 100%;
+  height: auto;
   justify-content: space-between;
   align-items: center;
 }
@@ -20,10 +21,61 @@ header {
 
 header > .header___imgSection {
   height: 100%;
-  width: auto;
+  width: 100%;
 }
 
 .header___imgSection img {
   height: 100%;
-  width: auto;
+  width: 100%;
+}
+
+@media screen and (max-width: 1280px) {
+  header {
+    margin-top: 2rem;
+    padding: 3rem 0rem;
+    display: flex;
+    width: 100%;
+    height: auto;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .header___title {
+    margin-right: 2rem;
+  }
+  
+  .header___title p {
+    margin-top: 1.2rem;
+    margin-bottom: 1.8rem;
+  }
+  
+  header > .header___imgSection {
+    height: 100%;
+    width: 100%;
+  }
+  
+  .header___imgSection img {
+    height: 100%;
+    width: 100%;
+  }
+}
+
+
+@media screen and (max-width: 550px) {
+  header {
+    flex-direction: column;
+    padding: 1rem 0rem;
+    height: auto;
+    width: 100%;
+  }
+
+  .header___title {
+    margin-right: 1rem;
+  }
+
+  header .header___imgSection {
+    margin-top: 2rem;
+    height: auto;
+    width: 100%;
+  }
 }

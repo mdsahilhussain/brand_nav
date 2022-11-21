@@ -8,7 +8,7 @@
   --primaryColor: #f53838;
   --titleColor: #0b132a;
   --paraColor: #4f5665;
-  --footerColor: #F8F8F8;
+  --footerColor: #f8f8f8;
 }
 
 * {
@@ -82,24 +82,71 @@ a {
 a:hover {
   color: unset;
 }
+@media screen and (max-width: 1500px) {
+  .container {
+    padding: 0 3rem;
+  }
 
-/* Tablets, iPads (landscape) ----------- */
-@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
+  header {
+    margin-top: 1rem;
+  }
 }
 
-/* Tablets, iPads (portrait) ----------- */
-@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) {
+@media screen and (max-width: 1050px) {
+  .container {
+    padding: 0 2rem;
+  }
+
+  h1 {
+    font-size: 2rem;
+  }
+
+  h2 {
+    font-size: 1.5rem;
+    font-weight: 500;
+  }
+
+  h4 {
+    font-size: 1rem;
+    font-weight: 500;
+  }
+
+  h5 {
+    font-size: 0.9rem;
+  }
+
+  p {
+    font-size: 0.8rem;
+  }
 }
 
-/* Desktops and laptops ----------- */
-@media only screen and (min-width: 1224px) {
+@media screen and (max-width: 700px) {
 }
 
-/* Large screens ----------- */
-@media only screen and (min-width: 1824px) {
-}
+@media screen and (max-width: 550px) {
+  .container {
+    padding: 0 1.5rem;
+  }
 
-/* iPhone 4 ----------- */
-@media only screen and (-webkit-min-device-pixel-ratio: 1.5),
-  only screen and (min-device-pixel-ratio: 1.5) {
+  h1 {
+    font-size: 1.5rem;
+  }
+
+  h2 {
+    font-size: 1.3rem;
+    font-weight: 500;
+  }
+
+  h4 {
+    font-size: 1.1rem;
+    font-weight: 500;
+  }
+
+  h5 {
+    font-size: 0.8rem;
+  }
+
+  p {
+    font-size: 0.6rem;
+  }
 }

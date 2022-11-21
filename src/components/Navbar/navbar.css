@@ -2,11 +2,57 @@
 
 .nav {
   padding: 2rem 0rem;
+  position: relative;
+}
+
+.navbar {
+  display: block;
+}
+
+.menubar {
+  display: none;
+}
+.menubar___style {
   display: flex;
   align-items: center;
   justify-content: space-between;
 }
 
+.menubar___image,
+.menubar___image img {
+  height: 2rem;
+  width: auto;
+}
+
+.menubar--linkList {
+  background-color: var(--bgColor) !important;
+  height: 100vh;
+  width: 100%;
+  text-align: center;
+  position: absolute;
+  z-index: 999;
+}
+.menubar--linkList ul {
+  position: absolute;
+  list-style: none;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.menubar--linkList li p {
+  transition: all 0.3s ease-in-out;
+  margin-bottom: 18px;
+}
+
+.menubar___button Button {
+  margin-bottom: 18px;
+}
+.nav___style {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
 .nav___image {
   height: 3rem;
 }
@@ -30,10 +76,9 @@
 .nav___links li:last-child {
   margin-right: 0rem;
 }
-.nav___links p:hover{
+.nav___links p:hover {
   color: var(--titleColor);
 }
-
 
 .nav___button Button {
   margin-right: 0.8rem;
@@ -43,23 +88,32 @@
   margin-right: 0rem;
 }
 
-/* Tablets, iPads (landscape) ----------- */
-@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
+@media screen and (max-width: 1280px) {
+  .navbar {
+    display: none;
+  }
+
+  .menubar {
+    display: block;
+  }
+  .menubar--linkList li p {
+    font-size: 1rem;
+  }
 }
 
-/* Tablets, iPads (portrait) ----------- */
-@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) {
+@media screen and (max-width: 900px) {
+  .menubar___image,
+  .menubar___image img {
+    height: 1.5rem;
+  }
+  .menubar--linkList li p {
+    font-size: 0.8rem;
+  }
 }
 
-/* Desktops and laptops ----------- */
-@media only screen and (min-width: 1224px) {
-}
-
-/* Large screens ----------- */
-@media only screen and (min-width: 1824px) {
-}
-
-/* iPhone 4 ----------- */
-@media only screen and (-webkit-min-device-pixel-ratio: 1.5),
-  only screen and (min-device-pixel-ratio: 1.5) {
+@media screen and (max-width: 550px) {
+  .menubar___image,
+  .menubar___image img {
+    height: 1rem;
+  }
 }

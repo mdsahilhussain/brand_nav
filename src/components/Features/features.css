@@ -6,16 +6,17 @@ section.features {
   align-items: center;
   justify-content: space-around;
   padding: 3rem 0;
-  height: 50vh;
+  width: 100%;
+  height: 100%;
 }
 
 .features img {
+  width: 50%;
   height: 100%;
-  width: auto;
 }
 
 .features___detail {
-  width: 25vw;
+  width: 50%;
   padding: 1rem 2rem;
 }
 
@@ -30,8 +31,58 @@ section.features {
   margin-bottom: 2rem;
 }
 
-
 .features___detail--points img {
   margin-right: 1rem;
   width: 1.5rem;
+}
+
+@media screen and (max-width: 1280px) {
+  section.features {
+    margin-top: 3rem;
+    padding: 0rem 0;
+  }
+
+  .features___detail h2 + p {
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+  }
+
+  .features___detail--points {
+    margin-bottom: 0.8rem;
+  }
+
+  .features___detail--points img {
+    width: 1rem;
+  }
+}
+
+@media screen and (max-width: 1050px) {
+  section.features {
+    margin-top: 2rem;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .features img {
+    width: 100%;
+  }
+
+  .features___detail {
+    width: 100%;
+    padding: 1rem 2rem;
+  }
+  .features___detail h2 + p {
+    margin-top: 0.8rem;
+    margin-bottom: 1rem;
+  }
+  .features___detail--points img {
+    margin-right: 0.5rem;
+    width: 1rem;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  section.features {
+    flex-direction: column-reverse;
+  }
 }
