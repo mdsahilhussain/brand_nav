@@ -13,18 +13,15 @@ section.testimonials {
 
 .testimonials___slider {
   margin-top: 4rem;
-  display: flex;
-  align-items: center;
-  justify-content: space-around;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  column-gap: 1rem;
 }
 
 .testimonials___slider--card {
-  width: calc(100vw / 3);
-  height: 18vh;
   padding: 1.5rem;
   border-radius: 10px;
   border: 1px solid var(--paraColor);
-  margin-right: 2rem;
   position: relative;
 }
 
@@ -120,7 +117,6 @@ section.testimonials {
 
 @media screen and (max-width: 1280px) {
   .testimonials___slider--card {
-    height: 20vh;
     padding: 1rem;
   }
 }
@@ -137,12 +133,6 @@ section.testimonials {
   .testimonials___slider {
     margin-top: 2rem;
   }
-
-  .testimonials___slider--card {
-    height: 18vh;
-    padding: 1rem;
-  }
-
   .testimonials___slider--card-bio {
     flex-direction: column;
     width: 100%;
@@ -187,20 +177,6 @@ section.testimonials {
   }
 }
 
-@media screen and (max-width: 900px) {
-  .testimonials___slider--card {
-    height: 22vh;
-    padding: 1rem;
-  }
-}
-
-@media screen and (max-width: 700px) {
-  .testimonials___slider--card {
-    height: 22vh;
-    padding: 1rem;
-  }
-}
-
 @media screen and (max-width: 550px) {
   section.testimonials {
     margin-top: 2rem;
@@ -216,13 +192,6 @@ section.testimonials {
     overflow-x: auto;
     overflow-y: hidden;
     padding-bottom: 1rem;
-  }
-
-  .testimonials___slider--card {
-    width: calc(100vw / 1);
-    height: 25vh;
-    padding: 1rem;
-    width: 100%;
   }
 
   .testimonials___slider--card-bio {
