@@ -136,7 +136,7 @@ section.testimonials {
   .testimonials___slider--card-bio {
     flex-direction: column;
     width: 100%;
-    height: 6rem;
+    height: 5rem;
   }
 
   .testimonials___slider--card-bio img {
@@ -148,6 +148,7 @@ section.testimonials {
 
   .testimonials___slider--card-bio__info {
     text-align: center;
+    height: 100%;
   }
 
   .testimonials___slider--card-rating {
@@ -159,6 +160,11 @@ section.testimonials {
     margin-left: 0.2rem;
     margin-bottom: 0rem;
   }
+
+  .testimonials___slider--card___coment {
+    margin-top: 3rem;
+  }
+  
 
   .testimonials___slider--controler {
     margin-top: 1.5rem;
@@ -175,6 +181,7 @@ section.testimonials {
   .testimonials___slider--controler___btn li img {
     width: 1.5rem;
   }
+  
 }
 
 @media screen and (max-width: 550px) {
@@ -219,21 +226,5 @@ section.testimonials {
   .testimonials___slider--card-rating img {
     margin-left: 0.2rem;
     margin-bottom: 0rem;
-  }
-
-  .testimonials___slider--controler {
-    margin-top: 1.5rem;
-  }
-
-  .testimonials___slider--controler___dots li {
-    width: 0.5rem;
-    height: 0.5rem;
-  }
-  .testimonials___slider--controler___dots li:first-child {
-    width: 1.5rem;
-  }
-
-  .testimonials___slider--controler___btn li img {
-    width: 1.5rem;
   }
 }

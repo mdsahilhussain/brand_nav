@@ -37,6 +37,10 @@ section.network {
   margin-right: 1.5rem;
 }
 
+.network___companey--image img:last-child {
+  margin-right: 0rem;
+}
+
 @media screen and (max-width: 1050px) {
   section.network {
     margin-top: 2rem;
@@ -69,9 +73,27 @@ section.network {
 
   .network___companey--image {
     margin-top: 1.5rem;
+    width: 100%;
+    height: auto;
   }
 
   .network___companey--image img {
     margin-right: 1rem;
+    height: auto;
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .network___companey--image {
+    width: 100%;
+    height: auto;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .network___companey--image > img {
+    height: auto;
+    width: 20%;
   }
 }
