@@ -53,9 +53,6 @@
   }
 }
 
-@media screen and (max-width: 700px) {
-}
-
 @media screen and (max-width: 550px) {
   .help--white {
     height: 3rem;
@@ -67,7 +64,7 @@
     height: 15vh;
   }
   .help___card {
-  top: -5rem;
+    top: -5rem;
     padding: 2rem;
     flex-direction: column;
     align-items: flex-start;

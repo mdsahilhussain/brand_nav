@@ -164,7 +164,6 @@ section.testimonials {
   .testimonials___slider--card___coment {
     margin-top: 3rem;
   }
-  
 
   .testimonials___slider--controler {
     margin-top: 1.5rem;
@@ -181,7 +180,6 @@ section.testimonials {
   .testimonials___slider--controler___btn li img {
     width: 1.5rem;
   }
-  
 }
 
 @media screen and (max-width: 550px) {
