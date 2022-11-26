@@ -49,6 +49,10 @@ const pricingInfo = [
   },
 ];
 
+const click = (value) => {
+  alert(value);
+};
+
 function Pricing() {
   return (
     <section className="pricing" id="pricing">
@@ -77,7 +81,9 @@ function Pricing() {
               {item.price}
               <span> / mo</span>
             </h4>
-            <Button name={item.name} type={item.type} />
+            <div onClick={() => click("Selected")}>
+              <Button name={item.name} type={item.type} />
+            </div>
           </div>
         ))}
       </div>

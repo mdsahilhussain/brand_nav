@@ -4,6 +4,9 @@ import "./help.css";
 
 import Button from "../Button/Button";
 
+const click = (value) => {
+  alert(value);
+};
 function Help() {
   return (
     <section className="help" id="help">
@@ -16,7 +19,9 @@ function Help() {
             </h2>
             <p>Let's subscribe with us and find the fun.</p>
           </div>
-          <Button name="Subscribe Now" type="btn___header" />
+          <div onClick={() => click("Subscribe Now")}>
+            <Button name="Subscribe Now" type="btn___header" />
+          </div>
         </div>
       </div>
     </section>

@@ -14,6 +14,10 @@ const navInfo = [
   { navName: "Help", url: "#help" },
 ];
 
+const click = (value) => {
+  alert(`clicked for ${value}`);
+};
+
 function Navbar() {
   const [toggleMenu, setToggleMenu] = useState(false);
 
@@ -51,8 +55,13 @@ function Navbar() {
                 </li>
               ))}
               <div className=".menubar___button">
-                <Button name="Sign In" type="btn___normal" /> <br />
-                <Button name="Sing up" type="btn___border" />
+                <div onClick={() => click("Sign In")}>
+                  <Button name="Sign In" type="btn___normal" />
+                </div>
+                <br />
+                <div onClick={() => click("Sign Up")}>
+                  <Button name="Sing up" type="btn___border" />
+                </div>
               </div>
             </ul>
           </div>
@@ -73,8 +82,12 @@ function Navbar() {
             ))}
           </ui>
           <ui className="nav___button">
-            <Button name="Sign In" type="btn___normal" />
-            <Button name="Sing up" type="btn___border" />
+            <div onClick={() => click("Sign In")}>
+              <Button name="Sign In" type="btn___normal" />
+            </div>
+            <div onClick={() => click("Sign Up")}>
+              <Button name="Sing up" type="btn___border" />
+            </div>
           </ui>
         </div>
       </div>

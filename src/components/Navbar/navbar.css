@@ -80,6 +80,11 @@
   color: var(--titleColor);
 }
 
+.nav___button {
+  display: flex;
+  align-items: center;
+}
+
 .nav___button Button {
   margin-right: 0.8rem;
 }

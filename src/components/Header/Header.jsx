@@ -7,19 +7,23 @@ import "./header.css";
 import headerImage from "../../assets/Illustration 1.svg";
 import Button from "../Button/Button";
 
+const click = () => {
+  alert("Get Started");
+};
+
 function Header() {
   return (
     <header>
-      <div className="header___title" >
+      <div className="header___title">
         <h1>
           Want anything to be easy with <span>LaslesVPN.</span>
         </h1>
         <p>
           Provide a network for all your needs with ease and fun using{" "}
-          <strong> LaslesVPN</strong> {" "} discover interesting features from us.
+          <strong> LaslesVPN</strong> discover interesting features from us.
         </p>
-        <div className="header___title-btn">
-          <Button name="Get Started" type ="btn___header"/>
+        <div className="header___title-btn" onClick={() => click()}>
+          <Button name="Get Started" type="btn___header" />
         </div>
       </div>
       <div className="header___imgSection">

@@ -26,6 +26,7 @@ section.pricing {
   border: 2px solid var(--primaryColor);
 }
 
+
 .pricingSection___card span {
   font-size: 1.5rem;
   color: var(--paraColor);
